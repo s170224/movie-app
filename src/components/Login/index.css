@@ -1,0 +1,152 @@
+.mainContainer {
+  background-image: url('https://res.cloudinary.com/dfspo6ey6/image/upload/v1701264155/netfilx_1_b9dhn6.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+.loginContainer {
+  border-radius: 8px;
+  opacity: 0.8;
+  background: #0c0b10;
+  width: 456px;
+  height: 440px;
+  flex-shrink: 0;
+}
+.heading1 {
+  color: var(--general-white, #fff);
+  text-align: center;
+  font-family: 'HK Grotesk';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+.inputName {
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: #333;
+  color: var(--light-blue-gray-200, #e2e8f0);
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.labelName {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+}
+.loginButton {
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #e50914;
+  color: var(--light-blue-gray-50, #f8fafc);
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.errorPara {
+  color: var(--light-red-600, #dc2626);
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.image1Logo {
+  width: 180px;
+  height: 52.001px;
+  flex-shrink: 0;
+  margin-top: 40px;
+}
+
+@media (max-width: 430px) {
+  .mainContainer {
+    background-image: url('https://res.cloudinary.com/dfspo6ey6/image/upload/v1701264155/netfilx_1_b9dhn6.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+  }
+  .loginContainer {
+    width: 100vw;
+    height: 80vh;
+    background: #131313;
+  }
+  .heading1 {
+    color: var(--general-white, #fff);
+    text-align: center;
+    font-family: 'HK Grotesk';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  .inputName {
+    width: 296px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #333;
+    color: var(--light-blue-gray-200, #e2e8f0);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+  }
+  .labelName {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+  }
+  .loginButton {
+    display: flex;
+    width: 296px;
+    padding: 8px 20px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding-left: 140px;
+    border-radius: 4px;
+    background: #e50914;
+    color: var(--light-blue-gray-50, #f8fafc);
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .errorPara {
+    color: var(--light-red-600, #dc2626);
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .image1Logo {
+    width: 100px;
+    height: 27px;
+    flex-shrink: 0;
+    margin-top: 20px;
+  }
+}

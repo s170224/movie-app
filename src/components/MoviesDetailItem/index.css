@@ -1,0 +1,282 @@
+.head3 {
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 40px;
+}
+.eachSubCon {
+  background: linear-gradient(
+    90deg,
+    #181818 -6.5%,
+    rgba(24, 24, 24, 0.6) 57.15%,
+    rgba(24, 24, 24, 0) 99.77%
+  );
+  width: 751px;
+  height: 501px;
+  flex-shrink: 0;
+}
+.para6 {
+  color: var(--general-white, #fff);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.movCon {
+  display: flex;
+  flex-direction: row;
+}
+.paraRun {
+  color: var(--general-white, #fff);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.uaCon {
+  display: inline-flex;
+  padding: 2px 12px;
+  text-align: center;
+  height: 30px;
+  width: 60px;
+  gap: 10px;
+  border-radius: 2px;
+  border: 1px solid #fff;
+  color: var(--general-white, #fff);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background-color: transparent;
+}
+.paraRelease {
+  color: var(--general-white, #fff);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.buttonPlay {
+  display: flex;
+  padding: 8px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: #fff;
+  color: var(--general-dark-blue, #171f46);
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.listGenres {
+  color: var(--general-white, #fff);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  list-style-type: none;
+}
+.sucCon {
+  background: #181818;
+}
+.paragen {
+  color: var(--light-blue-gray-400, #94a3b8);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+.subListCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.moreHead {
+  color: var(--general-white, #fff);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 30px;
+}
+.similarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.details-main-con {
+  background-color: #181818;
+}
+.failureCon1 {
+  text-align: center;
+  height: 640px;
+  padding-top: 130px;
+  background-color: #0d0d0d;
+}
+
+@media (max-width: 430px) {
+  .head3 {
+    color: var(--general-white, #fff);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 5px;
+  }
+  .eachSubCon {
+    background: linear-gradient(
+      90deg,
+      #181818 -6.5%,
+      rgba(24, 24, 24, 0.6) 57.15%,
+      rgba(24, 24, 24, 0) 99.77%
+    );
+    width: 100vw;
+    height: 427px;
+    flex-shrink: 0;
+  }
+  .para6 {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .movCon {
+    display: flex;
+    flex-direction: row;
+  }
+  .paraRun {
+    color: var(--general-white, #fff);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .uaCon {
+    display: inline-flex;
+    padding: 2px 12px;
+    text-align: center;
+    height: 30px;
+    width: 60px;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    color: var(--general-white, #fff);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: transparent;
+  }
+  .paraRelease {
+    color: var(--general-white, #fff);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .buttonPlay {
+    display: flex;
+    padding: 8px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: #fff;
+    color: var(--general-dark-blue, #171f46);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .listGenres {
+    color: var(--general-white, #fff);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .sucCon {
+    background: #181818;
+  }
+  .paragen {
+    color: var(--light-blue-gray-500, #64748b);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .subListCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .moreHead {
+    color: var(--general-white, #fff);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 1px;
+  }
+  .similarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .details-main-con {
+    background-color: #181818;
+  }
+  .failureCon1 {
+    text-align: center;
+    height: 640px;
+    padding-top: 130px;
+    background-color: #0d0d0d;
+  }
+}

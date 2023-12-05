@@ -1,0 +1,22 @@
+.image4 {
+  width: 255px;
+  height: 170px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+.container4 {
+  list-style-type: none;
+  padding: 10px;
+}
+@media (max-width: 430px) {
+  .image4 {
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 4px;
+  }
+  .container4 {
+    list-style-type: none;
+    padding: 5px;
+  }
+}
